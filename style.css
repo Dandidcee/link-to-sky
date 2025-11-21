@@ -73,6 +73,35 @@ html, body {
     padding-left: 50px;   
 }
 
+
+button {
+  padding: 15px 15px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: #b4d7ff(261deg 80% 48%);
+  color:#b4d7ff(0, 0%, 100%);
+  box-shadow: #b4d7ff 0px 7px 29px 0px;
+}
+
+button:active {
+  letter-spacing: 3px;
+  background-color: #b4d7ff(261deg 80% 48%);
+  color: #b4d7ff(0, 0%, 100%);
+  box-shadow: #b4d7ff 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
 .main .bawah-kiri .button button{
     padding: 15px;
     width: 200px;
@@ -90,7 +119,7 @@ html, body {
     padding-left: 60px;
     margin-top: 120px;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 38px;
 
 }
 
@@ -121,7 +150,7 @@ html, body {
 hr {
   border: none;
   border-top: 2px solid #000;
-  width: 100%;     
+  width: 600px;     
   margin: 60px;
   font-weight: normal;
 }
@@ -130,6 +159,7 @@ p {
     padding-left: 60px;
     text-align: justify;
     padding-right: 10px;
+    line-height: 25px;
 }
 
 .button button:hover {
@@ -165,6 +195,7 @@ p {
     
     hr {    
         margin: 30px;
+        width: 300px;
     }
     
     p {
@@ -198,6 +229,7 @@ p {
 
     .bawah-kiri .button {
         padding-left: 30px;
+        margin-top: 150px;
     }
 
 }
