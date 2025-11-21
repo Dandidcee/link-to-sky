@@ -172,6 +172,12 @@ p {
     transition: transform 0.2s ease;
 }
 
+.kanan .name {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
 
 
 /* if screen phone or tablet */
