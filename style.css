@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main {
+    display: flex;
+    height: 100vh;
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kiri {
+    width: 40%;
+}
+
+.kiri .foto {
+    height: 40vh;
+    width: 100%;
+    min-height: 200px;
+    min-width: 200px;
+
+}
+
+.kiri .foto img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+}
+
+.main .bawah-kiri {
+    width: 100%;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: whitesmoke;
+    height: 60vh;
+    margin-top: 0;
+}
+
+.main .bawah-kiri h1 {
+    padding-top: 50px;
+    padding-left: 47px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.main .bawah-kiri h2 {
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.main .bawah-kiri h3{
+    padding-left: 50px;
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.bawah-kiri .button {   
+    margin-top: 200px;
+    padding-left: 50px;   
+}
+
+.main .bawah-kiri .button button{
+    padding: 15px;
+    width: 200px;
+    border: 5px;
+    background-color: black;
+    color: whitesmoke;
+}
+.kanan {
+    flex: 1;
+    flex-direction: row;
+    background-color: #b4d7ff;
+}
+
+.kanan h1 {
+    padding-left: 60px;
+    margin-top: 120px;
+    font-weight: normal;
+    font-size: 48px;
+
+}
+
+.kanan .button2 {
+    padding-left: 60px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.kanan .button2 button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    border: 5px;
+    background-color: black;
+    color: black;
+    background-color: transparent;
+    border: solid 1px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #000;
+  width: 100%;     
+  margin: 60px;
+  font-weight: normal;
+}
+
+p {
+    padding-left: 60px;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.button button:hover {
+    transform: scale(1.08);
+    transition: transform 0.2s ease;
+}
+
+.kanan .button2 button:hover {
+    transform: scale(1.08); 
+    transition: transform 0.2s ease;
+}
+
+
+
+/* if screen phone or tablet */
+@media (max-width: 800px) {
+    .main {
+        flex-direction: column;
+    }
+    
+    .kiri {
+        width: 100%;
+    }
+
+    .kiri .foto {
+        height: 40vh;
+    }
+
+    .kanan h1 {
+        padding-left: 30px;
+        margin-top: 30px;
+    }
+    
+    hr {    
+        margin: 30px;
+    }
+    
+    p {
+        padding-left: 30px;
+        text-align: justify;
+        padding-right: 10px;
+    }
+
+    .kanan .button2 {
+        padding-left: 30px;
+        padding-top: 8px;
+        padding-bottom: 9px;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    .main .bawah-kiri h1 {
+        padding-left: 26px;
+
+    }
+
+    .main .bawah-kiri h2 {
+        padding-left: 29px;
+    }
+
+    .main .bawah-kiri h3 {
+        padding-left: 30px;
+    }
+
+    .bawah-kiri .button {
+        padding-left: 30px;
+    }
+
+}
