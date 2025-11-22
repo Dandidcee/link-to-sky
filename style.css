@@ -202,7 +202,7 @@ p {
 
     .kanan {
         position: absolute;
-        margin-top: 780px;
+        margin-top: 100vh;
     }
 
     .kanan h1 {
@@ -251,3 +251,4 @@ p {
 
 
 }
+
