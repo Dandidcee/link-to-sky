@@ -192,6 +192,17 @@ p {
 
     .kiri .foto {
         height: 40vh;
+        position: fixed;
+    }
+
+    .kiri .bawah-kiri {
+        position: absolute;
+        margin-top: 40vh;
+    }
+
+    .kanan {
+        position: absolute;
+        margin-top: 670px;
     }
 
     .kanan h1 {
