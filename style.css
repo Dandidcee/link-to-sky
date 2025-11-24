@@ -155,7 +155,6 @@ p {
 }
 
 .telegram a {
-    height: 200px;
     display: inline-block;
     text-decoration: none;
     color: transparent;
@@ -244,3 +243,4 @@ p {
 
 
 }
+
