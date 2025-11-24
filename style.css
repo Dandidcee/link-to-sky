@@ -134,9 +134,8 @@ hr {
 
 p {
     padding-left: 60px;
-    text-align: justify;
     padding-right: 10px;
-    line-height: 25px;
+    line-height: 20px;
 }
 
 .kanan .name {
@@ -147,11 +146,12 @@ p {
 
 .telegram {
     position: fixed;
-    bottom: -70px;
+    bottom: -140px;
     right: 0px;
-    background-image: url(/foto/telegram.png);
+    background-image: url(/foto/round.png);
     background-repeat: no-repeat;
-    height: ;
+    display: inline-block;
+    
 }
 
 .telegram a {
