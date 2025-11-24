@@ -146,8 +146,8 @@ p {
 
 .telegram {
     position: fixed;
-    bottom: -140px;
-    right: 0px;
+    bottom: -100px;
+    right: -20px;
     background-image: url(/foto/round.png);
     background-repeat: no-repeat;
     display: inline-block;
@@ -241,5 +241,6 @@ p {
         top: 50vh;
         background-color: whitesmoke;
     }
+
 
 }
