@@ -1,250 +1,37 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-}
-
-html, body {
     margin: 0;
     padding: 0;
-}
-
-.main {
-    display: flex;
     font-family: "Tenor Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.kiri {
-    width: 40%;
-}
-
-.kiri .foto {
-    height: 40vh;
-    width: 100%;
-    min-height: 200px;
-    min-width: 200px;
+.animasi {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    padding: 0;
 
 }
 
-.kiri .foto img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    min-width: 200px;
+.maintenance {
+    margin-top: -100px;
 }
 
-.main .bawah-kiri {
-    width: 100%;
-    min-height: 200px;
-    min-width: 200px;
-    background-color: whitesmoke;
-    height: 60vh;
-    margin-top: 0;
+h1{
+    text-align: center;
+    margin-bottom: 8px;
 }
 
-.main .bawah-kiri h1 {
-    padding-top: 50px;
-    padding-left: 47px;
-    font-size: 48px;
-    font-weight: bold;
-}
-
-.main .bawah-kiri h2 {
-    padding-left: 50px;
-    font-weight: bold;
-}
-
-.main .bawah-kiri h3{
-    padding-left: 50px;
+h3 {
+    text-align: center;
     font-weight: normal;
-    margin-top: 20px;
-    font-size: 16px;
+    
 }
 
-.bawah-kiri .button {   
+.footer {
     margin-top: 200px;
-    padding-left: 50px;   
-}
-
-
-button {
-  position: relative;
-  display: inline-block;
-  margin: 15px;
-  padding: 15px 30px;
-  text-align: center;
-  font-size: 18px;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: #b4d7ff;
-  background: transparent;
-  cursor: pointer;
-  transition: ease-out 0.5s;
-  border: 2px solid #b4d7ff;
-  border-radius: 10px;
-  box-shadow: inset 0 0 0 0 #b4d7ff;
-}
-
-button:hover {
-  color: white;
-  box-shadow: inset 0 -100px 0 0 #b4d7ff;
-}
-
-button:active {
-  transform: scale(0.9);
-}
-
-.main .bawah-kiri .button button{
-    padding: 15px;
-    width: 200px;
-    border: 5px;
-    background-color:whitesmoke;
-    color: black;
-    border: 1px solid ;
-}
-.kanan {
-    flex: 1;
-    flex-direction: row;
-    background-color: #b4d7ff;
-}
-
-.kanan .about {
-    height: 100%;
-}
-
-.kanan h1 {
-    padding-left: 60px;
-    margin-top: 120px;
-    font-weight: normal;
-    font-size: 38px;
-
-}
-
-
-hr {
-  border: none;
-  border-top: 2px solid #000;
-  width: 600px;     
-  margin: 60px;
-  font-weight: normal;
-}
-
-p {
-    padding-left: 60px;
-    padding-right: 10px;
-    line-height: 20px;
-}
-
-.kanan .name {
-    font-weight: bold;
-    margin-top: 20px;
-    font-size: 20px;
-}
-
-.telegram {
-    position: fixed;
-    bottom: 50px;
-    right: -10px;
-    background-image: url(/foto/round.png);
-    background-repeat: no-repeat;
-    display: inline-block;
+    text-align: center;
     
-}
-
-.telegram a {
-    height: 50px;
-    display: inline-block;
-    text-decoration: none;
-    color: transparent;
-    margin-right: -20px;
 
 }
-
-.last-page {
-    background-color: blue;
-    height: 500px;
-    width: 100%;
-    
-}
-
-
-
-
-/* if screen phone or tablet */
-@media (max-width: 800px) {
-    .main {
-        flex-direction: column;
-    }
-    
-    .kiri {
-        width: 100%;
-    }
-
-    .kiri .foto {
-        height: 40vh;
-        position: fixed;
-    }
-
-    .kiri .bawah-kiri {
-        position: absolute;
-        margin-top: 40vh;
-
-    }
-
-    .kanan {
-        position: absolute;
-        margin-top: 100vh;
-        padding-bottom: 50px;
-        height: 500px;
-    }
-
-    .kanan h1 {
-        padding-left: 30px;
-        margin-top: 30px;
-    }
-    
-    hr {    
-        margin: 30px;
-        width: 300px;
-    }
-    
-    p {
-        padding-left: 30px;
-        text-align: justify;
-        padding-right: 10px;
-    }
-
-    .main .bawah-kiri h1 {
-        padding-left: 26px;
-
-    }
-
-    .main .bawah-kiri h2 {
-        padding-left: 29px;
-    }
-
-    .main .bawah-kiri h3 {
-        padding-left: 30px;
-    }
-
-    .bawah-kiri .button {
-        padding-left: 30px;
-        margin-top: 150px;
-    }
-
-    .last-page {
-        position: absolute;
-        margin-top: 100vh;
-        top: 50vh;
-        background-color: whitesmoke;
-    }
-
-
-}
-
-
-
-
